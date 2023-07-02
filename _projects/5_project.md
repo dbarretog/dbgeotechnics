@@ -2,7 +2,7 @@
 layout: page
 title: GE-GM
 description: Statistical mechanics of particle breakage, fragmentation and shape evolution during shearing of granular materials
-img: assets/img/GEplot.jpg
+img: assets/img/GEPlot.jpg
 importance: 3
 category: Completed
 ---
