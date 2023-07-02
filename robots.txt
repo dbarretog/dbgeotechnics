@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dbarretog.github.io/dbgeotechnics/sitemap.xml
+Sitemap: https://www.dbgeotechnics.co.uk/sitemap.xml
