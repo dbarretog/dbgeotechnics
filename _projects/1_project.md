@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: ON-DEM
+description: Open Network on DEM Simulations. A multi-disciplinary project to develop the next generation of DEM simulations. Join us! (Starting on 04/10/2023)
+img: assets/img/1.jpg
+redirect: https://www.cost.eu/actions/CA22132/
 importance: 1
-category: work
+category: Current
 ---
 
 Every project has a beautiful feature showcase page.

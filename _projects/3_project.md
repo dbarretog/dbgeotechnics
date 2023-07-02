@@ -1,81 +1,56 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: CoP
+description: Housing Construction on Peatland. Opening up Opportunities and Minimising Disruption through Innovation – Feasibility of Proposed Solutions
+img: assets/img/peat.png
+importance: 1
+category: Completed
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/peatmap.jpg" title="Peat map" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/peatdepth.jpg" title="Peat depth" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/peatcouncils.jpg" title="Scottish councils" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, peatland in Scotland (SNH, 2019). Middle, peat depth (Waldron, et al, 2015). Right, housing market and local development 
+	plans (modified from Highland Council, 2017).
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project was funded by Built Environment - Smarter Transformation, BE-ST, (formerly Construction Scotland Innovation Centre, CSIC) between June 2020 and
+March 2021. It was led by my colleague [Dr John McDougall](https://www.napier.ac.uk/people/john-mcdougall), whilst most of the work was performed by 
+[Dr Juan Bernal-Sanchez](https://www.napier.ac.uk/people/juan-bernalsanchez). Additional collaborators included 
+[Prof. Gabi Medero](https://researchportal.hw.ac.uk/en/persons/gabriela-m-medero) from Heriot Watt University, and Donald Cook (formerly at COWI).
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/peatoptions.jpg" title="peat2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Deep peat with mass stabilisation
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+The economic development and social resilience of communities in rural Scotland is being hampered by a shortage of affordable housing. Nationally, about 
+23,000 new homes per year are needed, whilst in the year up to October 2018, only 18,000 were built (BBC, 2019). The remoter rural areas of Scotland are 
+spacious enough to offer considerable scope for affordable housing development and generally have lower land values but other factors including challenging 
+ground conditions, notably peat, can make development in these areas economically unviable and environmentally unsustainable.
+
+Scottish peatlands are predominantly blanket bogs, the largest of which are found in the Highlands and Western Isles. Around 20% of Scotland’s land surface 
+area is covered by blanket bogs alone, which in turn is about 15% of the global total for this habitat (Bruneau and Johnson, 2014). In response to the 
+shortage of affordable housing and the incidence of peat soils, this project sought to:
+
+- Identify the scale of the shortage,
+- Recognise the significance of construction on the peat from a multidisciplinary standpoint,
+- Compare, existing and innovative options for foundation design on peat, so as to lessen the magnitude of the construction challenge.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

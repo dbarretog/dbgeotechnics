@@ -1,80 +1,36 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: miPILE
+description: A micro-scale (DEM) investigation on driven pile cycle behaviour
+img: assets/img/PISA.jpg
 importance: 4
-category: fun
+category: Completed
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project was funded by the Royal Academy of Engineering (Research Exchanges with China and India Programme) and allowed me to spend four months at Zhejiang
+University (Hangzhou, China) working together with Prof. Zhongxuan Yang on a variety of pile designed issues (as noted below). As in other exchanges I have 
+participated in, this became the start of long-standing collaborations and joint outputs. Collaborations still currently exist and include joint post-graduate student
+supervision, joint research outputs, amongst others.   
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/PISA.jpg" title="PISA testin" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    PISA Project Testing (Courtesy of the Carbon Trust)
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Structures such as bridges or wind turbines develop loads that have to be transmitted to the ground. The loads can be static (self-weight) or dynamic 
+(wind, wave or traffic loads) and may be significantly large. Long piles are normally used to carry these loads to greater depths where the ground provides
+higher capacity. Predictions of pile capacity are relatively reliable. However, increases in capacity may not be predicted accurately. Also, changes in soil 
+stresses induced by pile installation affect the piles’ ability to sustain large numbers of load cycles (e.g. wave loading). It is recognised that stress 
+changes around pile shafts and subsequent micro-scale processes such as crushing, abrasion and creep are critical in controlling driven pile behaviour. 
+Numerical studies using discrete element methods (DEM) investigated some of these micro-scale processes, aiming for the design of piles to be carried out more 
+safely and economically. Construction costs in offshore foundations are a limiting factor on their cost effectiveness.  The main objectives of the project were 
+to (i) calibrate and validate DEM simulations against existing experimental data and (ii) improve existing driven pile design approaches by considering 
+particle-scale effects.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

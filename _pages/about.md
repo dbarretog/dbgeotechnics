@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Lecturer in Geotechnical Engineering. <a href='https://www.gm2m.uk/'>Geomechanics Micro-to-Macro Research Group</a>. <br> Edinburgh Napier University
 
 profile:
   align: right
@@ -13,14 +13,27 @@ profile:
     <p>Merchiston Campus</p>
     <p>Edinburgh, EH10 5DT</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I studied Civil Engineering at Universidad de los Andes, Colombia (1999-2003). After a brief period of work in industry as Civil and Geotechnical Engineer, I 
+completed the MSc in Soil Mechanics and Engineering Seismology (2005), and my PhD in Soil Mechanics (2010), both at Imperial College London. I have then worked 
+at Edinburgh Napier University since 2009. You can also have a look at my [instutional website](https://www.napier.ac.uk/people/daniel-barreto-gonzalez) for 
+further details about academic activity.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Whilst working at a teaching-focused university, I am very active in research. My research focuses on the Discrete Element Method (DEM). I am interested on 
+particle shape and particle size distribution (PSD) effects on soil behaviour, as well as anything else related to DEM, including contact model development, 
+validation, calibration procedures, etc. PhD and Post-doc candidates on these topics are welcome to contact me. You can also get involved with me and a 
+fantastic team of DEM researchers via the [Open Network on DEM Simulations (ON-DEM)](https://www.cost.eu/actions/CA22132/). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also prolific (award winning) peer reviewer who has been Editorial Panel Member for journals such as Géotechnique, Computers and Geotechnics, ICE 
+Proceedings - Geotechnical Engineering, amongst others. I was contributing author for the textbook "Geotechnical Engineering Design" published by Wiley in 2015. Also 
+UK (nominated) member for the technical committee TC105 (Geomechanics micro to macro) of the International Society of Soil Mechanics and Geotechnical 
+Engineering, and Emeritus Member of the Royal Society of Edinburgh Young Academy of Scotland. 
+
+
+
+
